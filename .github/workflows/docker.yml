@@ -30,4 +30,4 @@ jobs:
           context: .
           platforms: linux/amd64
           push: true
-          tags: ${{ github.repository }}:latest
+          tags: ${{ github.repository }}:17.6

@@ -10,3 +10,4 @@ RUN dnf -y install \
   postgresql17-contrib-17.6-1PGDG.rhel9 \
   postgresql17-libs-17.6-1PGDG.rhel9
 USER 26
+ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/pgsql-17/bin
